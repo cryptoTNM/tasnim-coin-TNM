@@ -1,0 +1,9 @@
+Building Tasnimcoin
+
+See doc/readme-qt.rst for instructions on building Tasnimcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Tasnimcoin.
+
+See doc/build-*.txt for instructions on building tasnimcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Tasnimcoin.

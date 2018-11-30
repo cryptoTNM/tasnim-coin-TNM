@@ -1,0 +1,34 @@
+src/*.exe
+src/tasnimcoin
+src/tasnimcoind
+src/test_tasnimcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.tasnimcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+tasnimcoin-qt
+Tasnimcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+tasnimcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
