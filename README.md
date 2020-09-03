@@ -78,7 +78,7 @@ sudo apt-get install qt5-default
 sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev git qt-sdk libminiupnpc-dev libssl-dev
 
 clone this repo
-git clone https://github.com/funcoin/funcoin.git
+git clone https://github.com/cryptoTNM/tasnim-coin-TNM.git
 
 build the wallet
 qmake 
