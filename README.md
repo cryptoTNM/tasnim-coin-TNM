@@ -66,8 +66,31 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
     cd src; make -f makefile.unix test
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
+.   sudo apt-get install qt5-default
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./tasnimcoin-qt_test
+    If you want to build the wallet on Ubuntu, do the following:
+
+install dependencies
+sudo apt-get update
+sudo apt-get install qt5-default
+sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev git qt-sdk libminiupnpc-dev libssl-dev
+
+clone this repo
+git clone https://github.com/funcoin/funcoin.git
+
+build the wallet
+qmake 
+than//
+make
+
+#/add seed nodes (were not included in the source code)
+in your home folder in .Funcoin, in home hidden file
+create Funcoin.conf and add the following:
+
+addnode=95.85.15.176
+
+addnode=95.85.8.14
+    
 
